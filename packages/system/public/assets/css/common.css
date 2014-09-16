@@ -38,6 +38,11 @@
   background-repeat: no-repeat;
 }
 
+@media screen and (min-width: 768px) {
+  .navbkgd {
+    background-position: top center;}
+}
+
 .content {
   margin-top: 70px;
   width: 100%
