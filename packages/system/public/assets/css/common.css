@@ -24,27 +24,7 @@
   padding-left: 20px;
   margin-left: 0
 }
-
-.rightHalf{
-  background: url("/system/assets/img/bg1.jpg"), url("/system/assets/img/bg2.jpg");
-  background-position: top left, top right;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 50% 100%, 50% 100%;
-}
-
-.navbkgd {
-  background: url("/system/assets/img/center.png");
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-
-@media screen and (min-width: 768px){
-  .navbkgd {
-    background-position: top center;}
-}
-
 .content {
-  margin-top: 70px;
   width: 100%
 }
 footer {

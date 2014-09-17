@@ -43,7 +43,7 @@ hr {
   border-top: 2px solid #707170;
   clear: both; }
 
-h6, .h4, .h5, .h6 {
+h6, h4, h5 {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 700; }
 
@@ -66,7 +66,8 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: 34px;
-  color: #B20022; }
+  color: #B20022;
+  font-weight: 700; }
 
 h5, .h5 {
   font-size: 21px; }
@@ -150,13 +151,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   display: block !important;
   height: auto !important;
   padding-bottom: 0;
-  overflow: visible !important; }
+  overflow: visible !important;
+  margin-top: 28px;
+  border-top: 0; }
 
 .navbar-toggle {
   display: none; }
-
-.navbar-collapse {
-  border-top: 0; }
 
 .navbar-brand {
   margin-left: -15px; }
@@ -173,5 +173,3 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 /* Redeclare since we override the float above */
 .navbar-nav.navbar-right {
   float: right; }
-
-/*# sourceMappingURL=vmiorders.css.map */

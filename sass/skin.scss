@@ -52,11 +52,10 @@ hr {
 }
 
 h6,
-.h4,
-.h5,
-.h6 {
+h4,
+h5{
   font-family: 'Open Sans Condensed', sans-serif;
-   font-weight: 700;
+  font-weight: 700;
 }
 
 .white {
@@ -87,6 +86,7 @@ h4,
 .h4 {
   font-size: 34px;
   color: #B20022;
+  font-weight: 700;
 }
 
 h5,
@@ -189,14 +189,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   height: auto !important;
   padding-bottom: 0;
   overflow: visible !important;
+  margin-top: 28px;
+  border-top: 0;
 }
 
 .navbar-toggle {
   display: none;
-}
-
-.navbar-collapse {
-  border-top: 0;
 }
 
 .navbar-brand {
