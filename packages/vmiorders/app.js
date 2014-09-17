@@ -46,5 +46,7 @@ Vmiorders.register(function(app, auth, database) {
     });
     */
 
+  Vmiorders.aggregateAsset('css', 'vmiorders.css');
+
   return Vmiorders;
 });
