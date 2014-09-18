@@ -11,7 +11,6 @@
 require 'rubygems'
 require 'rubyXL'
 require 'json'
-# require 'pry'
 
 workbook = RubyXL::Parser.parse("./config-file.xlsx")
 output_path = './output/'
