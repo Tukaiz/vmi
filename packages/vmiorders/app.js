@@ -24,6 +24,7 @@ Vmiorders.register(function(app, auth, database) {
     menu: 'main'
   });
 
+  //Vmiorders.angularDependencies(['vr.directives.slider']);
   /**
     //Uncomment to use. Requires meanio@0.3.7 or above
     // Save settings with callback
@@ -47,6 +48,9 @@ Vmiorders.register(function(app, auth, database) {
     */
 
   Vmiorders.aggregateAsset('css', 'vmiorders.css');
+  Vmiorders.aggregateAsset('js', 'angular-slider.min.js');
+
+  //Vmiorders.angularDependencies(['vr.directives.slider']);
 
   return Vmiorders;
 });
