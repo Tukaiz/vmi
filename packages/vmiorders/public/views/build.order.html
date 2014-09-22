@@ -1,2 +1,36 @@
 <h1>Test</h1>
-<pre>{{package.name}}</pre>
+<pre>{{buildOrderForm}}</pre>
+
+<ng-form name="buildOrderForm" role="form">
+  <fieldset class="set-size-grp">
+      <legend>
+        Select Overall Set Sizes
+      </legend>
+
+      <div class="form-group profile-height">
+
+          <label class="radio-inline">
+            <input type="radio"
+                   id="standardProfileHeight"
+                   ng-model="buildOrderForm.profileHeight"
+                   value="Standard"> Standard
+          </label>
+
+          <label class="radio-inline">
+            <input type="radio"
+                   id="lowProfileHeight"
+                   ng-model="buildOrderForm.profileHeight"
+                   value="Low"> Low
+          </label>
+
+      </div><!--/ .form-group .profile-height-->
+
+      <div class="form-group profile-total-width">
+        <slider ng-model="buildOrderForm.totalWidth"
+             floor="0"
+             ceiling="100"
+             step="1">
+        </slider>
+      </div><!--/ .form-group .profile-total-width-->
+  </fieldset>
+</ng-form>

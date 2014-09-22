@@ -6,5 +6,7 @@ angular.module('mean.vmiorders').controller('BuildOrderCtrl', ['$scope', 'Global
     $scope.package = {
       name: 'Balls'
     };
+
+    $scope.buildOrderForm = []
   }
 ]);
