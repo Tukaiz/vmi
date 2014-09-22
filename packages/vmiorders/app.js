@@ -47,6 +47,6 @@ Vmiorders.register(function(app, auth, database) {
     */
 
   Vmiorders.aggregateAsset('css', 'vmiorders.css');
-
+  Vmiorders.angularDependencies(['vr.directives.slider']);
   return Vmiorders;
 });
