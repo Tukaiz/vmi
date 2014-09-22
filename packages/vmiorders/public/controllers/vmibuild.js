@@ -7,6 +7,6 @@ angular.module('mean.vmiorders').controller('BuildOrderCtrl', ['$scope', 'Global
       name: 'Balls'
     };
 
-    $scope.buildOrderForm = []
+    $scope.buildOrderForm = [];
   }
 ]);
