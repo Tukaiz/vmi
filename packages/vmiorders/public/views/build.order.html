@@ -1,1 +1,85 @@
-<h1>Test</h1>
+<div class="container">
+  <pre>{{buildOrderForm}}</pre>
+  <div class="row">
+    <ng-form name="buildOrderForm" role="form">
+      <fieldset class="set-size-grp">
+          <legend>Select Overall Set Sizes</legend>
+
+          <div class="form-group profile-height">
+
+              <label class="radio-inline">
+                <input type="radio"
+                       id="standardProfileHeight"
+                       ng-model="buildOrderForm.profileHeight"
+                       value="Standard"> Standard
+              </label>
+
+              <label class="radio-inline">
+                <input type="radio"
+                       id="lowProfileHeight"
+                       ng-model="buildOrderForm.profileHeight"
+                       value="Low"> Low
+              </label>
+
+          </div><!--/ .form-group .profile-height-->
+
+          <div class="form-group profile-total-width">
+           <label>
+            Select Overall Width 
+          </label>
+
+           <slider ng-model="buildOrderForm.totalWidth"
+                   ng-model-range="buildOrderForm.testThis"
+                   floor="1"
+                   ceiling="100"
+                   step="1">
+            </slider>
+          </div><!--/ .form-group .profile-total-width-->
+      </fieldset><!--/ .set-size-grp-->
+
+      <fieldset class="set-category-widths">
+        <legend>Select Product Segment Sizes</legend>
+
+        <div class="form-group cigarette-width">
+          <label>
+            cigarettes 
+          </label>
+
+          <slider ng-model="buildOrderForm.cigWidth"
+                  ng-model-range="buildOrderForm.cigWidthRange"
+                  floor="0"
+                  ceiling="100"
+                  step="1">
+          </slider>
+        </div><!--/ .form-group .cigarette-width-->
+
+        <div class="form-group ecig-width">
+          <label>
+            e-cig
+          </label>
+
+          <slider ng-model="buildOrderForm.ecigWidth"
+                  ng-model-range="buildOrderForm.ecigWidthRange"
+                  floor="0"
+                  ceiling="100"
+                  step="1">
+          </slider>
+        </div><!--/ .form-group .ecig-width -->
+
+        <div class="form-group otp-width">
+          <label>
+           otp
+          </label>
+
+          <slider ng-model="buildOrderForm.otpWidth"
+                  ng-model-range="buildOrderForm.otpWidthRange"
+                  floor="0"
+                  ceiling="100"
+                  step="1">
+          </slider>
+        </div><!--/ .form-group .ecig-width -->
+
+      </fieldset>
+    </ng-form>
+  </div>
+</div> <!-- / .container -->
