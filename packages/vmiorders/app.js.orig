@@ -48,13 +48,10 @@ Vmiorders.register(function(app, auth, database) {
     */
 
   Vmiorders.aggregateAsset('css', 'vmiorders.css');
-<<<<<<< HEAD
-  Vmiorders.angularDependencies(['vr.directives.slider']);
-=======
-  Vmiorders.aggregateAsset('js', 'angular-slider.min.js');
 
-  //Vmiorders.angularDependencies(['vr.directives.slider']);
->>>>>>> ff5ea4e44b8144e30b12e7167f7634e8cadf27d6
+  Vmiorders.angularDependencies(['vr.directives.slider']);
+
+  Vmiorders.aggregateAsset('js', 'angular-slider.min.js');
 
   return Vmiorders;
 });
