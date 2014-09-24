@@ -13,10 +13,7 @@
         "bower_components/angular-ui-router/release/angular-ui-router.js",
         "bower_components/angular-bootstrap/ui-bootstrap.js",
         "bower_components/angular-bootstrap/ui-bootstrap-tpls.js",
-<<<<<<< HEAD
         "bower_components/angular-touch/angular-touch.js",
-=======
->>>>>>> ff5ea4e44b8144e30b12e7167f7634e8cadf27d6
         "bower_components/venturocket-angular-slider/build/angular-slider.min.js"
       ]
     }
